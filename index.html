@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="images/logo.png">
+</head>
+
+<body>
+    <nav>
+        <div data-aos="fade-right"><img src="./images/logo.png" alt=""></div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="content">
+            <h3>It's not just Coffee It's <span>Starbuck's</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aliquid vitae nihil id, inventore error
+                corporis hic dolore, optio dignissimos iure beatae dolores possimus porro cumque. Quos delectus vitae
+                itaque?</p>
+            <button data-aos="zoom-in">LEARN MORE</button>
+        </div>
+        <div class="images" data-aos="fade-left">
+            <div class="box green"><img src="/images/green.png" alt=""></div>
+            <div class="box orange"><img src="/images/orange.png" alt=""></div>
+            <div class="box pink"><img src="/images/pink.png" alt=""></div>
+        </div>
+    </section>
+    <div class="img-links">
+        <a class="gcfe"><img src="images/green.png" alt=""></a>
+        <a class="ocfe"><img src="images/orange.png" alt=""></a>
+        <a class="pcfe"><img src="images/pink.png" alt=""></a>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init({
+          duration:1000,
+          delay:100   
+        });
+      </script> 
+</body>
+
+</html>
